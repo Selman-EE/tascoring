@@ -1,0 +1,316 @@
+﻿@using Tascoring.UI.Extensions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>@ViewData["Title"] - Tascoring</title>
+	<!-- Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700%7CRaleway:400,700" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/ico" href="//cdn.beymen.com/assets/images/favicon.ico">
+	<!-- Bootstrap -->
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Font Awesome -->
+	<link href="~/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Owl Carousel -->
+	<link href="~/css/owl.carousel.min.css" rel="stylesheet">
+	<link href="~/css/owl.theme.default.min.css" rel="stylesheet">
+	<!-- Custom Style -->
+	<link href="~/css/style.css" rel="stylesheet" />
+	<link href="~/css/default_theme.css" rel="stylesheet">
+	<!-- Responsive Style -->
+	<link href="~/css/responsive.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!-- Layout cog -->
+	@**
+		<div class="layout-options">
+				<div class="box-layout">
+					<h2>Style Switcher</h2>
+					<!-- Skins-->
+					<div class="block-switcher-cloud color-swr">
+						<h3>Template Skins:</h3>
+						<button class="sky-o" value="default_theme"></button>
+						<button class="green-o" value="green_theme"></button>
+						<button class="yellow-o" value="yellow_theme"></button>
+						<button class="violet-o" value="violet_theme"></button>
+					</div>
+					<!-- Layout -->
+					<div class="block-switcher-cloud hide-responsive">
+						<h3>Layout Mode:</h3>
+						<button class="wide-layout" value="Wide">Wide</button>
+						<button class="boxed-layout" value="Boxed">Boxed</button>
+					</div>
+					<!-- Patterns -->
+					<div class="block-switcher-cloud hide-responsive">
+						<h3>Background Patterns:</h3>
+						<button class="pattern-box pattern1"></button>
+						<button class="pattern-box pattern2"></button>
+						<button class="pattern-box pattern3"></button>
+						<button class="pattern-box pattern4"></button>
+						<button class="pattern-box pattern5"></button>
+						<button class="pattern-box pattern6"></button>
+						<button class="pattern-box pattern7"></button>
+						<button class="pattern-box pattern8"></button>
+						<button class="pattern-box pattern9"></button>
+						<button class="pattern-box pattern10"></button>
+					</div>
+				</div>
+				<div class="icon-cog">
+					<i class="fa fa-cog lay fa-spin"></i>
+				</div>
+			</div>
+	*@
+
+	<div class="layout-width">
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<!-- Logo & Menu -->
+				<div class="l-area">
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<nav class="navbar navbar-expand-lg navbar-header">
+						<!-- Logo -->
+						<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+							<img class="logo" src="//cdn.beymen.com/assets/images/logo.png" alt="Beymen">
+							@*<img class="logo" src="~/img/logo.png" alt="X-Data">*@
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+								aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon">
+								<i class="fa fa-bars"></i>
+							</span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<!--<div class="collapse navbar-collapse custo-drp-res" id="navbarNav">-->
+						<!-- Menu -->
+						<!--<ul class="navbar-nav menu">-->
+						<!-- Services -->
+						<!--<li class="dropdown">
+									<a class="dropdown-toggle" id="dLabel-services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										services
+										<span class="fa fa-angle-down mrg-l"></span>
+									</a>
+									<ul class="dropdown-menu custom" aria-labelledby="dLabel-services">
+										<li>
+											<a href="shared-hosting.html">
+												<span class="fa fa-group menu-ser"></span>Shared Hosting
+											</a>
+										</li>
+										<li>
+											<a href="cloud-hosting.html">
+												<span class="fa fa-cloud menu-ser"></span>Cloud Hosting
+											</a>
+										</li>
+										<li>
+											<a href="vps-hosting.html">
+												<span class="fa fa-download menu-ser"></span>Vps Hosting
+											</a>
+										</li>
+										<li>
+											<a href="wordpress-hosting.html">
+												<span class="fa fa-wordpress menu-ser"></span>Wordpress Hosting
+											</a>
+										</li>
+										<li>
+											<a href="ecommerce-hosting.html">
+												<span class="fa fa-shopping-bag menu-ser"></span>E-Commerce Hosting
+											</a>
+										</li>
+										<li>
+											<a href="dedicated-hosting.html">
+												<span class="fa fa-server menu-ser"></span>Dedicated Hosting
+											</a>
+										</li>
+										<li>
+											<a href="domains.html">
+												<span class="fa fa-globe menu-ser"></span>Domains
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>-->
+					</nav>
+				</div>
+				<!-- SocialMedia -->
+				@*<div class="s-area">
+						<span>Find us</span>
+						<ul class="social">
+							<li>
+								<a class="fa fa-facebook social-m" href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us on Facebbok"></a>
+							</li>
+							<li>
+								<a class="fa fa-twitter social-m" href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us on Twitter"></a>
+							</li>
+							<li>
+								<a class="fa fa-google-plus social-m" href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us on Google Plus"></a>
+							</li>
+							<li>
+								<a class="fa fa-youtube-play social-m" href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us on Youtube"></a>
+							</li>
+							<li>
+								<a class="fa fa-instagram social-m" href="#" data-toggle="tooltip" data-placement="bottom" title="Follow us on Instagram"></a>
+							</li>
+						</ul>
+					</div>*@
+			</div>
+		</header>
+
+		<!-- Carousel -->
+		<!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">-->
+		<!-- Indicators -->
+		<!--<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		</ol>-->
+		<!-- Wrapper for slides -->
+		<!--<div class="carousel-inner">-->
+		<!-- Slide #1 -->
+		<!--<div class="carousel-item modern-lyo-slide bg1-modern active">
+			<div class="container">-->
+		<!-- Title -->
+		<!--<div class="title-bg1-modern">
+			<h1>
+				The
+				<b>Best</b> Web Hosting
+			</h1>
+			<h2>Starting at $2.99/month*</h2>
+		</div>-->
+		<!-- Features -->
+		<!--<div class="features-bg1-modern">-->
+		<!-- Item -->
+		<!--<div class="feature-modlyo-item">
+			<i class="fa fa-gift"></i>
+			<span>FREE Domain Registration</span>
+		</div>-->
+		<!-- Item -->
+		<!--<div class="feature-modlyo-item">
+			<i class="fa fa-object-group"></i>
+			<span>The easiest Drag &amp; Drop sitebuilder</span>
+		</div>-->
+		<!-- Item -->
+		<!--<div class="feature-modlyo-item">
+			<i class="fa fa-wordpress"></i>
+			<span>1 click Wordpress and 300+ open source apps installer</span>
+		</div>-->
+		<!-- Item -->
+		<!--<div class="feature-modlyo-item">
+				<i class="fa fa-support"></i>
+				<span>24/7/365 Genius Support® assistance</span>
+			</div>
+		</div>-->
+		<!-- More Details -->
+		<!--<div class="details-bg1-modern">
+					<a class="getstarted-modernlyo" href="#">Get Started</a>
+					<a class="seeplans-modernlyo" href="#">or See Plans</a>
+				</div>
+			</div>
+		</div>-->
+		<!-- Slide #2 -->
+		<!--<div class="carousel-item modern-lyo-slide bg2-modern">
+			<div class="container">-->
+		<!-- Title -->
+		<!--<div class="title-bg1-modern">
+			<h1>
+				The
+				<b>Best</b> Web Support
+			</h1>
+			<h2>We keep your servers rock solid &amp; customers delighted</h2>
+		</div>-->
+		<!-- Features -->
+		<!--<div class="features-bg1-modern">-->
+		<!-- Item -->
+		<!--<div class="support-modlyo-item">
+			<i class="fa fa-money"></i>
+			<span>Billing</span>
+			<a href="#">Billing FAQS</a>
+		</div>-->
+		<!-- Item -->
+		<!--<div class="support-modlyo-item">
+			<i class="fa fa-database"></i>
+			<span>MySQL</span>
+			<a href="#">Billing FAQS</a>
+		</div>-->
+		<!-- Item -->
+		<!--<div class="support-modlyo-item">
+			<i class="fa fa-globe"></i>
+			<span>DNS</span>
+			<a href="#">DNS FAQS</a>
+		</div>-->
+		<!-- Item -->
+		<!--<div class="support-modlyo-item">
+				<i class="fa fa-lock"></i>
+				<span>SSL</span>
+				<a href="#">SSL FAQS</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>-->
+		<!-- More Details -->
+		<!--<div class="details-bg1-modern">
+							<a class="getstarted-modernlyo" href="#">Get Started</a>
+							<a class="seeplans-modernlyo" href="#">or See Plans</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<div class="clearfix"></div>
+
+		<!-- Scroung -->
+		<section class="plans-prices-st2">
+			<!-- Title -->
+			
+			<div class="container">
+				<div class="sec-title">
+					<h2>@ViewData["HeaderSummary"] @User.Identity.Name.GetUserName()</h2>
+				</div>
+				@RenderBody()
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="modernlyo-footer">
+			<div class="container">
+				<div class="row">
+					Tascoring
+					<div class="col-sm-3 col-xs-12">
+						<div class="block-footer-mlyo">
+							<div class="container">
+								&copy; 2021 - <a asp-area="" asp-controller="Home" asp-action="Index">All Rigths Reverserd</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="~/js/popper.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="~/js/owl.carousel.min.js"></script>
+	<!-- Plugins -->
+	<script src="~/js/plugins.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>server (3)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.9030612%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#66C23A" offset="0%"></stop>
+            <stop stop-color="#5FB636" offset="100%"></stop>
+            <stop stop-color="#77D9B1" offset="100%"></stop>
+            <stop stop-color="#4BD47F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="server-(3)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <path d="M36,60 L60,60 L60,36 L36,36 L36,60 Z M38,38 L58,38 L58,58 L49,58 L49,45.414 L53.293,49.707 L54.707,48.293 L48,41.586 L41.293,48.293 L42.707,49.707 L47,45.414 L47,58 L38,58 L38,38 Z" id="Shape"></path>
+            <path d="M10.5,6 C8.019,6 6,8.019 6,10.5 C6,12.981 8.019,15 10.5,15 C12.981,15 15,12.981 15,10.5 C15,8.019 12.981,6 10.5,6 Z M10.5,13 C9.122,13 8,11.879 8,10.5 C8,9.121 9.122,8 10.5,8 C11.878,8 13,9.121 13,10.5 C13,11.879 11.878,13 10.5,13 Z" id="Shape"></path>
+            <circle id="Oval" cx="50" cy="9" r="1"></circle>
+            <circle id="Oval" cx="46" cy="9" r="1"></circle>
+            <circle id="Oval" cx="52" cy="12" r="1"></circle>
+            <circle id="Oval" cx="48" cy="12" r="1"></circle>
+            <circle id="Oval" cx="42" cy="9" r="1"></circle>
+            <circle id="Oval" cx="44" cy="12" r="1"></circle>
+            <circle id="Oval" cx="38" cy="9" r="1"></circle>
+            <circle id="Oval" cx="40" cy="12" r="1"></circle>
+            <circle id="Oval" cx="34" cy="9" r="1"></circle>
+            <circle id="Oval" cx="36" cy="12" r="1"></circle>
+            <path d="M60,16.392 L60,4.608 C60,2.067 57.933,0 55.392,0 L4.608,0 C2.067,0 0,2.067 0,4.608 L0,16.391 C0,17.86 0.703,19.155 1.777,20 C0.703,20.845 0,22.14 0,23.608 L0,35.391 C0,36.86 0.703,38.155 1.777,39 C0.703,39.845 0,41.14 0,42.608 L0,54.391 C0,56.933 2.067,59 4.608,59 L33,59 L33,57 L4.608,57 C3.17,57 2,55.83 2,54.392 L2,42.608 C2,41.17 3.17,40 4.608,40 L26,40 L26,38 L4.608,38 C3.17,38 2,36.83 2,35.392 L2,23.608 C2,22.17 3.17,21 4.608,21 L55.391,21 C56.83,21 58,22.17 58,23.608 L58,32 L60,32 L60,23.608 C60,22.139 59.297,20.844 58.223,20 C59.297,19.155 60,17.86 60,16.392 Z M4.608,19 C3.17,19 2,17.83 2,16.392 L2,4.608 C2,3.17 3.17,2 4.608,2 L55.391,2 C56.83,2 58,3.17 58,4.608 L58,16.391 C58,17.83 56.83,19 55.392,19 L4.608,19 Z" id="Shape"></path>
+            <path d="M6,29.5 C6,31.981 8.019,34 10.5,34 C12.981,34 15,31.981 15,29.5 C15,27.019 12.981,25 10.5,25 C8.019,25 6,27.019 6,29.5 Z M13,29.5 C13,30.879 11.878,32 10.5,32 C9.122,32 8,30.879 8,29.5 C8,28.121 9.122,27 10.5,27 C11.878,27 13,28.121 13,29.5 Z" id="Shape"></path>
+            <circle id="Oval" cx="50" cy="28" r="1"></circle>
+            <circle id="Oval" cx="46" cy="28" r="1"></circle>
+            <circle id="Oval" cx="52" cy="31" r="1"></circle>
+            <circle id="Oval" cx="48" cy="31" r="1"></circle>
+            <circle id="Oval" cx="42" cy="28" r="1"></circle>
+            <circle id="Oval" cx="44" cy="31" r="1"></circle>
+            <circle id="Oval" cx="38" cy="28" r="1"></circle>
+            <circle id="Oval" cx="40" cy="31" r="1"></circle>
+            <circle id="Oval" cx="34" cy="28" r="1"></circle>
+            <circle id="Oval" cx="36" cy="31" r="1"></circle>
+            <path d="M6,48.5 C6,50.981 8.019,53 10.5,53 C12.981,53 15,50.981 15,48.5 C15,46.019 12.981,44 10.5,44 C8.019,44 6,46.019 6,48.5 Z M13,48.5 C13,49.879 11.878,51 10.5,51 C9.122,51 8,49.879 8,48.5 C8,47.121 9.122,46 10.5,46 C11.878,46 13,47.121 13,48.5 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

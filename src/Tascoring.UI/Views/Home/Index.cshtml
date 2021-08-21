@@ -1,0 +1,60 @@
+﻿@model HomeVM
+
+@{
+	ViewData["Title"] = "Home Page";
+	ViewData["HeaderSummary"] = "Welcome";
+	var errorMessage = (string)ViewData["ErrorMessage"];
+}
+
+<style type="text/css">
+	.room-title {
+		margin-bottom: 20px;
+		border-bottom: 1px solid #efefef;
+	}
+	.room-list {
+		display: block;
+		text-align: left;
+	}
+	.room-list ul {
+		margin:0;
+		padding: 0;
+	}
+		.room-list ul li {
+			list-style-type: disclosure-closed;
+			margin: 0;
+			padding: 0 0 15px 0;
+		}
+	.room-list ul li a {
+		text-decoration: none;
+		font-size: 18px;
+	}
+</style>
+
+
+<div class="row">
+	<div class="col-md-4 offset-md-4">
+		<div class="room-title">
+			<h4>Please Select Room</h4>
+		</div>
+
+		<div class="room-list">
+			@if (Model is not null)
+			{
+				<ul>
+					@for (int i = 0; i < Model.Rooms.Count; i++)
+					{
+						<li>
+							<a href="@($"Room/{Model.Rooms[i].Id}")">@Model.Rooms[i].Name</a>
+						</li>
+					}
+				</ul>
+			}
+			else
+			{
+				<p>@errorMessage</p>
+			}
+		</div>
+
+	</div>
+</div>
+

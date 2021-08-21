@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="700px" viewBox="0 0 1200 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="0 0 1200 0 1200 79.734375 1200 700 0 700"></polyline>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-3">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#B4EC51" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.9030612%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#66C23A" offset="0%"></stop>
+            <stop stop-color="#5FB636" offset="100%"></stop>
+            <stop stop-color="#77D9B1" offset="100%"></stop>
+            <stop stop-color="#4BD47F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-441.000000, 482.000000)" id="Path-3">
+                    <path d="M90.4043056,529.927416 C90.4043056,529.927416 505.176014,403.587436 889.137667,529.927416 C1273.09932,656.267397 1696.24573,427.697324 1696.24573,427.697324 L1775,-2.27373675e-13 L0,8.34531364 L90.4043056,529.927416 Z" fill-opacity="0.800000012" fill="url(#linearGradient-3)" transform="translate(887.500000, 284.000000) rotate(-180.000000) translate(-887.500000, -284.000000) "></path>
+                    <path d="M405,43.4661654 C405,43.4661654 563.203587,111.319084 1047.70207,254.824096 C1532.20056,398.329109 1921,168.663178 1921,168.663178 L1921,33.7589334 L405,3 L405,43.4661654 Z" fill-opacity="0.8" fill="url(#linearGradient-4)" transform="translate(1163.000000, 152.500000) scale(-1, 1) rotate(-180.000000) translate(-1163.000000, -152.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

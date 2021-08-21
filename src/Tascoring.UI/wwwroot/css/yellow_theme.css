@@ -1,0 +1,217 @@
+/*
+Theme Name: X-DATA
+Theme URI: http://www.whmcsdes.com
+Description: X-DATA Template
+Version: 1.8
+Author: WHMCSdes
+Author URI: http://whmcsdes.com
+Tags: powerful, host
+*/
+
+header {
+    background: #e88300;
+    background: -webkit-linear-gradient(to right, #656D78 18%, #e88300 0%);
+    background: linear-gradient(to right, #656D78 50%, #e88300 0%);
+}
+
+.social-media,
+.user-sub,
+.contact,
+.l-border,
+.s-area,
+.cat,
+a.getstarted-modernlyo,
+a.job-modernlyo {
+    background: #F88C00;
+    background: -webkit-linear-gradient(to left, #e88300, #F88C00);
+    background: linear-gradient(to left, #e88300, #F88C00);
+}
+
+.sub-drpd,
+a.sub-drpd:focus,
+a.order-plan,
+.reg-dom,
+.sub-news:focus,
+.loading,
+.icon-cog,
+.plan-st2.active-st2,
+.plan-st2:hover,
+.plan-st3 h3,
+a.order-st3,
+.title-faq-lv2,
+.fa.fa-database.circle-icon,
+.x-data-alert.bg-col,
+.table-head,
+.bg-colored,
+.bg-btn,
+.bg-btn.md,
+.bg-btn.lg,
+.bg-btn-o-brd:hover,
+.bg-btn-o-brd.md:hover,
+.bg-btn-o-brd.lg:hover,
+.fa.fa-rocket.short-rad.bgz,
+.bg-btn-cys:hover,
+.bg-btn-cys.md:hover,
+.bg-btn-cys.lg:hover,
+.bg-btn-b-brd:hover,
+.bg-btn-b-brd.md:hover,
+.bg-btn-b-brd.lg:hover,
+.bg-btn-icon,
+.bg-btn-icon.md,
+.bg-btn-icon.lg,
+.fa.fa-rocket.short-sq.bgz,
+.fa.fa-rocket.short-circ.bgz,
+.search-box-sub,
+.tags-blog ul li a:hover,
+input.sub-add {
+    background: #F88C00;
+}
+
+.plan-icon,
+.reg-dom:hover,
+.block-inte a,
+.block-comp span,
+a.chat-n,
+.block-footer-mlyo ul li a:hover,
+.info-bio h4,
+.plan-st2 span,
+.fa.fa-star.x-icon,
+.order-table .fa.fa-arrow-right,
+.title-error-t,
+.t-sty-a.colored h2,
+.bg-btn-o-brd,
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg,
+.bg-btn-b-brd,
+.bg-btn-b-brd.md,
+.bg-btn-b-brd.lg,
+ul.categories li a::before,
+ul.categories li a:hover,
+.posts li a:hover,
+.body-article h1,
+.details-author a,
+a.related-title:hover {
+    color: #F88C00;
+}
+
+.reg-dom,
+.reg-dom:hover,
+.block-inte a,
+a.chat-n,
+.search-box-sub,
+.tags-blog ul li a:hover,
+a.reply-rep:hover {
+    border: 1px solid #F88C00;
+}
+
+.table-head th {
+    border: 1px solid #F88C00 !important;
+}
+
+.active-d {
+    border-right: 1px solid #F88C00;
+    border-left: 1px solid #F88C00;
+}
+
+.login-f,
+.item-art {
+    border-bottom: 4px solid #F88C00;
+}
+
+.active-tabp {
+    background: #F88C00 !important;
+}
+
+.fa.fa-rocket.short-sq.bgz,
+.fa.fa-rocket.short-circ.bgz,
+.fa.fa-rocket.short-rad.bgz {
+    border: 1px solid #F88C00;
+}
+
+.x-data-alert {
+    border-left: 6px solid #F88C00;
+}
+
+.bg-btn-o-brd,
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg,
+.bg-btn-icon,
+.bg-btn-icon.md,
+.bg-btn-icon.lg {
+    border: 2px solid #F88C00;
+}
+
+.bg-btn-b-brd,
+.bg-btn-b-brd.md,
+.bg-btn-b-brd.lg,
+input.inpt-add,
+.inpt-add {
+    border-bottom: 2px solid #F88C00;
+}
+
+.bg-btn-o-brd.md,
+.bg-btn-o-brd.lg,
+.bg-btn-cys:hover,
+.bg-btn-cys.md:hover,
+.bg-btn-cys.lg:hover,
+.fa.fa-group.border-icon {
+    border: 2px solid #F88C00;
+}
+
+a.sub-drpd:focus,
+.sub-drpd {
+    border-bottom: 3px solid #F88C00;
+}
+
+.ext-dom {
+    background: #F88C00;
+}
+
+.ext-dom.grad1 {
+    background: #e88300;
+}
+
+.ext-dom.grad2 {
+    background: #d87a01;
+}
+
+.ext-dom.grad3 {
+    background: #cc7300;
+}
+
+.ext-dom.grad4 {
+    background: #bb6a01;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: #F88C00;
+    border-color: #F88C00;
+}
+
+/* Smart Phones */
+
+@media only screen and (min-width: 160px) and (max-width: 767px) {
+    header {
+        background: #F88C00;
+    }
+    .s-area {
+        background: transparent !important;
+    }
+}
+
+
+/* iPads (landscape) */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    header {
+        background: #F88C00;
+    }
+    .s-area {
+        background: transparent !important;
+    }
+}

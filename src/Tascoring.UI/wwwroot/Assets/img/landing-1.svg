@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>server (2)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.9030612%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#66C23A" offset="0%"></stop>
+            <stop stop-color="#5FB636" offset="100%"></stop>
+            <stop stop-color="#77D9B1" offset="100%"></stop>
+            <stop stop-color="#4BD47F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="server-(2)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <path d="M10.5,6.5 C8.019,6.5 6,8.519 6,11 C6,13.481 8.019,15.5 10.5,15.5 C12.981,15.5 15,13.481 15,11 C15,8.519 12.981,6.5 10.5,6.5 Z M10.5,13.5 C9.122,13.5 8,12.379 8,11 C8,9.621 9.122,8.5 10.5,8.5 C11.878,8.5 13,9.621 13,11 C13,12.379 11.878,13.5 10.5,13.5 Z" id="Shape"></path>
+            <circle id="Oval" cx="50" cy="9.5" r="1"></circle>
+            <circle id="Oval" cx="46" cy="9.5" r="1"></circle>
+            <circle id="Oval" cx="52" cy="12.5" r="1"></circle>
+            <circle id="Oval" cx="48" cy="12.5" r="1"></circle>
+            <circle id="Oval" cx="42" cy="9.5" r="1"></circle>
+            <circle id="Oval" cx="44" cy="12.5" r="1"></circle>
+            <circle id="Oval" cx="38" cy="9.5" r="1"></circle>
+            <circle id="Oval" cx="40" cy="12.5" r="1"></circle>
+            <circle id="Oval" cx="34" cy="9.5" r="1"></circle>
+            <circle id="Oval" cx="36" cy="12.5" r="1"></circle>
+            <path d="M60,16.892 L60,5.108 C60,2.567 57.933,0.5 55.392,0.5 L4.608,0.5 C2.067,0.5 0,2.567 0,5.108 L0,16.891 C0,18.36 0.703,19.655 1.777,20.499 C0.703,21.344 0,22.64 0,24.108 L0,35.891 C0,37.36 0.703,38.655 1.777,39.499 C0.703,40.344 0,41.64 0,43.108 L0,54.891 C0,57.433 2.067,59.5 4.608,59.5 L55.391,59.5 C57.932,59.5 59.999,57.433 59.999,54.892 L59.999,43.108 C59.999,41.639 59.296,40.344 58.222,39.5 C59.297,38.656 60,37.36 60,35.892 L60,24.108 C60,22.639 59.297,21.344 58.223,20.5 C59.297,19.656 60,18.36 60,16.892 Z M58,43.108 L58,54.891 C58,56.329 56.83,57.499 55.392,57.499 L4.608,57.499 C3.17,57.5 2,56.33 2,54.892 L2,43.108 C2,41.67 3.17,40.5 4.608,40.5 L55.391,40.5 C56.83,40.5 58,41.67 58,43.108 Z M58,24.108 L58,35.891 C58,37.329 56.83,38.499 55.392,38.499 L4.608,38.499 C3.17,38.5 2,37.33 2,35.892 L2,24.108 C2,22.67 3.17,21.5 4.608,21.5 L55.391,21.5 C56.83,21.5 58,22.67 58,24.108 Z M4.608,19.5 C3.17,19.5 2,18.33 2,16.892 L2,5.108 C2,3.67 3.17,2.5 4.608,2.5 L55.391,2.5 C56.83,2.5 58,3.67 58,5.108 L58,16.891 C58,18.329 56.83,19.499 55.392,19.499 L4.608,19.499 L4.608,19.5 Z" id="Shape"></path>
+            <path d="M10.5,34.5 C12.981,34.5 15,32.481 15,30 C15,27.519 12.981,25.5 10.5,25.5 C8.019,25.5 6,27.519 6,30 C6,32.481 8.019,34.5 10.5,34.5 Z M10.5,27.5 C11.878,27.5 13,28.621 13,30 C13,31.379 11.878,32.5 10.5,32.5 C9.122,32.5 8,31.379 8,30 C8,28.621 9.122,27.5 10.5,27.5 Z" id="Shape"></path>
+            <circle id="Oval" cx="50" cy="28.5" r="1"></circle>
+            <circle id="Oval" cx="46" cy="28.5" r="1"></circle>
+            <circle id="Oval" cx="52" cy="31.5" r="1"></circle>
+            <circle id="Oval" cx="48" cy="31.5" r="1"></circle>
+            <circle id="Oval" cx="42" cy="28.5" r="1"></circle>
+            <circle id="Oval" cx="44" cy="31.5" r="1"></circle>
+            <circle id="Oval" cx="38" cy="28.5" r="1"></circle>
+            <circle id="Oval" cx="40" cy="31.5" r="1"></circle>
+            <circle id="Oval" cx="34" cy="28.5" r="1"></circle>
+            <circle id="Oval" cx="36" cy="31.5" r="1"></circle>
+            <path d="M10.5,53.5 C12.981,53.5 15,51.481 15,49 C15,46.519 12.981,44.5 10.5,44.5 C8.019,44.5 6,46.519 6,49 C6,51.481 8.019,53.5 10.5,53.5 Z M10.5,46.5 C11.878,46.5 13,47.621 13,49 C13,50.379 11.878,51.5 10.5,51.5 C9.122,51.5 8,50.379 8,49 C8,47.621 9.122,46.5 10.5,46.5 Z" id="Shape"></path>
+            <circle id="Oval" cx="50" cy="47.5" r="1"></circle>
+            <circle id="Oval" cx="46" cy="47.5" r="1"></circle>
+            <circle id="Oval" cx="52" cy="50.5" r="1"></circle>
+            <circle id="Oval" cx="48" cy="50.5" r="1"></circle>
+            <circle id="Oval" cx="42" cy="47.5" r="1"></circle>
+            <circle id="Oval" cx="44" cy="50.5" r="1"></circle>
+            <circle id="Oval" cx="38" cy="47.5" r="1"></circle>
+            <circle id="Oval" cx="40" cy="50.5" r="1"></circle>
+            <circle id="Oval" cx="34" cy="47.5" r="1"></circle>
+            <circle id="Oval" cx="36" cy="50.5" r="1"></circle>
+        </g>
+    </g>
+</svg>

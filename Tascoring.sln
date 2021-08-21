@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02D2DEAA-28F8-482D-9F5D-93CE2BCD39DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tascoring.UI", "src\Tascoring.UI\Tascoring.UI.csproj", "{C208882E-855E-4D7D-931D-EE01537942B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{539750BD-301E-4B60-9437-3E56E96E6927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8B1E02D7-00EE-4D0C-9259-71460D4FFF89}"
+	ProjectSection(SolutionItems) = preProject
+		docs\docs.txt = docs\docs.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tascoring.UnitTest", "test\Tascoring.UnitTest\Tascoring.UnitTest.csproj", "{6BB7106C-F752-4642-B04A-3D80095E19FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C208882E-855E-4D7D-931D-EE01537942B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C208882E-855E-4D7D-931D-EE01537942B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C208882E-855E-4D7D-931D-EE01537942B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C208882E-855E-4D7D-931D-EE01537942B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB7106C-F752-4642-B04A-3D80095E19FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB7106C-F752-4642-B04A-3D80095E19FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB7106C-F752-4642-B04A-3D80095E19FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB7106C-F752-4642-B04A-3D80095E19FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C208882E-855E-4D7D-931D-EE01537942B2} = {02D2DEAA-28F8-482D-9F5D-93CE2BCD39DE}
+		{6BB7106C-F752-4642-B04A-3D80095E19FB} = {539750BD-301E-4B60-9437-3E56E96E6927}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B75C78AE-A958-4B73-81BB-9678DF4DFFD1}
+	EndGlobalSection
+EndGlobal
